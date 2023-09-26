@@ -17,14 +17,39 @@ if (assault == "a")
  Console.WriteLine($"Du jumpar {EnemyName}. Du lägger en dropkick sen reser du dig");
     while(YourHP > 0 && EnemyHP > 0)
     {
-
-    int slumptal = generator.Next(1,20);
-    Console.WriteLine($"Du ger {EnemyName} en fet högerkrok. Det gör {slumptal } skada");
+    Console.WriteLine("Starta er runda");
+    Console.WriteLine($"{YourName}: {YourHP}  {EnemyName}: {EnemyHP}");
+    int SlumpSkada = generator.Next(1,20);
+    int SlumpAj = generator.Next(1,20);
     
+    EnemyHP -= SlumpSkada;
+    EnemyHP = Math.Max(0, EnemyHP);
+    Console.WriteLine($"Du ger {EnemyName} en fet högerkrok. Det gör {SlumpSkada} skada");
+
+    YourHP -= SlumpAj;
+    YourHP = Math.Max(0, YourHP);
+    Console.WriteLine($"Du får en sjuk spark i ansiktet av {EnemyName}. Det gjorde skitont och du förlorade {SlumpAj} skada");
+    
+
+    Console.WriteLine("Tryck på valfri knapp för att fortsätta.");
+    Console.ReadKey();
     // Samma fast den andra
 
     }
-    
+    Console.WriteLine("\n----- ===== STRIDEN ÄR SLUT ===== -----");
+
+if (YourHP == 0 && EnemyHP == 0)
+{
+  Console.WriteLine("OAVGJORT. Du är sämst!");
+}
+else if (YourHP == 0)
+{
+  Console.WriteLine($"{EnemyName} vann!!!");
+}
+else
+{
+  Console.WriteLine($"{YourName} vann!!!");
+}
 
 }
 if (assault == "b")
