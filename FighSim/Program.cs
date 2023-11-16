@@ -6,18 +6,23 @@ while (replay)
 
   int YourHP = 50;
   int EnemyHP = 50;
-
-  string YourName = "Batman";
+  Console.WriteLine("Vad heter du?");
+  string YourName = Console.ReadLine();
   string EnemyName = "Askungen";
-
   Console.WriteLine($"Du är {YourName} och ser {EnemyName}. Du känner ilskan i din kropp och blodet börjar koka. DU KOKAR");
   Console.WriteLine("Vad gör du åt det?");
-  Console.WriteLine($"a) Jumpar {EnemyName} b) Poppar en tröcca och blir lugn. c) Slänger en batarang på henne");
+  Console.WriteLine($"a) Jumpar {EnemyName} b) Poppar en tröcca och blir lugn. c) Tar fram din 9a och poppar henne");
 
   string assault = "";
   while (assault != "a" && assault != "b" && assault != "c")
   {
     assault = Console.ReadLine().ToLower();
+
+    if (assault != "a" && assault != "b" && assault != "c")
+    {
+      Console.WriteLine("Du har fan tappat det. JAG SA A B ELLER C");
+    }
+
   }
 
   if (assault == "a")
@@ -61,21 +66,16 @@ while (replay)
     }
 
   }
-  if (assault == "b")
+  else if (assault == "b")
   {
     Console.WriteLine("Du knäcker en tröcca och börjar klunka den. Du mår bra och går där ifrån");
     Console.WriteLine($"{EnemyName} vann!!!");
   }
 
-  if (assault == "c")
+  else if (assault == "c")
   {
-    Console.WriteLine($"Du slänger en batarang på {EnemyName}. Hon ligger på marken. Du tar en tröcca och njuter. Hon dog!");
+    Console.WriteLine($"Du tar fram en 9a och börjar smattra {EnemyName}. Hon faller ned på marken. Du tar en tröcca och njuter. HON DOG!");
     Console.WriteLine($"{YourName} vann!!!");
-  }
-
-  else
-  {
-    Console.WriteLine("Du har fan tappat det asså. Jag sa A B eller C");
   }
 
   Console.WriteLine("Vill du spela igen? (ja/nej)");
@@ -84,6 +84,7 @@ while (replay)
   if (replayChoice.ToLower() != "ja")
   {
     replay = false;
+    Console.WriteLine("Tack för du har spelat");
   }
 }
 Console.WriteLine("Tryck på valfri knapp för att avsluta");

@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "81A7S2G2+61qri2oNZWpJ0LzmPO7Il0O2xnzmaIvKsOTIx5aJ/baCXx5aNj42i+egxi3s/fv26odwUtpmjCAvA==",
+  "dgSpecHash": "VKrzONVscDrLbNKN32yCm5mruJjv8sTegEqBhB3KyGLsh3FtigCo5kUp8O/JASKQFG2s5QsJR0lii2fU4yoIJg==",
   "success": true,
   "projectFilePath": "C:\\Users\\alexander.eijvergar\\Documents\\Programering\\FightSim\\FighSim\\FighSim.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\alexander.eijvergar\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.24\\microsoft.netcore.app.ref.6.0.24.nupkg.sha512",
+    "C:\\Users\\alexander.eijvergar\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.24\\microsoft.windowsdesktop.app.ref.6.0.24.nupkg.sha512",
+    "C:\\Users\\alexander.eijvergar\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.24\\microsoft.aspnetcore.app.ref.6.0.24.nupkg.sha512",
+    "C:\\Users\\alexander.eijvergar\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.24\\microsoft.netcore.app.host.win-x64.6.0.24.nupkg.sha512"
+  ],
   "logs": []
 }

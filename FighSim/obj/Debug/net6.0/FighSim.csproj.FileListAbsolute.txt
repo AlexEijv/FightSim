@@ -3,7 +3,6 @@ C:\Users\alexander.eijvergar\Documents\Programering\FightSim\FighSim\bin\Debug\n
 C:\Users\alexander.eijvergar\Documents\Programering\FightSim\FighSim\bin\Debug\net6.0\FighSim.runtimeconfig.json
 C:\Users\alexander.eijvergar\Documents\Programering\FightSim\FighSim\bin\Debug\net6.0\FighSim.dll
 C:\Users\alexander.eijvergar\Documents\Programering\FightSim\FighSim\bin\Debug\net6.0\FighSim.pdb
-C:\Users\alexander.eijvergar\Documents\Programering\FightSim\FighSim\obj\Debug\net6.0\FighSim.csproj.AssemblyReference.cache
 C:\Users\alexander.eijvergar\Documents\Programering\FightSim\FighSim\obj\Debug\net6.0\FighSim.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\alexander.eijvergar\Documents\Programering\FightSim\FighSim\obj\Debug\net6.0\FighSim.AssemblyInfoInputs.cache
 C:\Users\alexander.eijvergar\Documents\Programering\FightSim\FighSim\obj\Debug\net6.0\FighSim.AssemblyInfo.cs
